@@ -2,7 +2,7 @@ export default function NosotrosPage() {
   return (
     <main>
       <section className="hero">
-        <h1>Sobre Pescatlántica</h1>
+        <h1>Sobre Pescatlantica</h1>
         <p>
           Más de dos décadas de experiencia en la industria pesquera argentina, 
           construyendo una empresa sólida basada en la calidad y el compromiso.
@@ -19,7 +19,7 @@ export default function NosotrosPage() {
 
           <div style={{ maxWidth: '900px', margin: '0 auto' }}>
             <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: 'var(--text-light)', marginBottom: '20px' }}>
-              Pescatlántica S.A. nace con la visión de integrar verticalmente la cadena 
+              Pescatlantica S.A. nace con la visión de integrar verticalmente la cadena 
               productiva pesquera, conectando captura, procesamiento, control de calidad 
               y comercialización bajo un mismo estándar de trabajo.
             </p>

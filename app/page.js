@@ -4,28 +4,34 @@ export default function Home() {
       <section className="hero">
         <h1>Excelencia en Productos del Mar</h1>
         <p>
-          Pescatlántica S.A. es una empresa integrada verticalmente especializada en la captura, 
+          Pescatlantica S.A. es una empresa integrada verticalmente especializada en la captura, 
           procesamiento y comercialización de productos pesqueros del Atlántico Sur.
         </p>
       </section>
 
-      <section className="capture-feature">
-        <div className="capture-copy">
-          <span className="eyebrow">Operación en origen</span>
-          <h2>Captura diaria</h2>
-          <p>
-            Nuestro equipo trabaja cada jornada para asegurar productos frescos,
-            trazabilidad desde el origen y abastecimiento constante para clientes
-            nacionales e internacionales.
-          </p>
-        </div>
-        <div className="capture-image">
-          <img
-            src="/imagenes/pescado-barco-web.jpeg"
-            alt="Equipo pesquero con captura diaria a bordo"
-            fetchPriority="high"
-            decoding="async"
-          />
+      <section>
+        <div className="content-section">
+          <div className="content-grid reverse">
+            <div className="content-image">
+              <img
+                src="/imagenes/pescado_barco.jpeg"
+                alt="Equipo pesquero con captura diaria a bordo"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="content-text">
+              <h2>Captura diaria</h2>
+              <p>
+                Nuestro equipo realiza capturas diarias asegurando productos frescos 
+                y abastecimiento constante.
+              </p>
+              <p>
+                Cada operación se trabaja con foco en trazabilidad, calidad y cuidado 
+                de la cadena de valor desde el origen.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -35,7 +35,7 @@ export async function POST(request) {
       from: process.env.CONTACT_FROM_EMAIL || process.env.SMTP_USER,
       to: contactRecipient,
       replyTo: email,
-      subject: `Consulta web Pescatlántica: ${asunto}`,
+      subject: `Consulta web Pescatlantica: ${asunto}`,
       text: [
         `Nombre: ${nombre}`,
         `Empresa: ${empresa || '-'}`,

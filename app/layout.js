@@ -2,7 +2,7 @@ import '../styles/globals.css';
 import LanguageSelector from './components/LanguageSelector';
 
 export const metadata = {
-  title: 'Pescatlántica - Procesamiento y Comercialización de Productos del Mar',
+  title: 'Pescatlantica - Procesamiento y Comercialización de Productos del Mar',
   description: 'Empresa líder en captura, procesamiento y distribución de productos pesqueros del Atlántico Sur.',
 };
 
@@ -12,12 +12,10 @@ export default function RootLayout({ children }) {
       <body>
         <header className="header">
           <div className="header-container">
-            <a href="/" className="brand" aria-label="Ir al inicio de Pescatlántica">
-              <span className="logo-mark">
-                <img src="/imagenes/logo.jpeg" alt="Pescatlántica" className="logo" />
-              </span>
+            <a href="/" className="brand" aria-label="Ir al inicio de Pescatlantica">
+              <img src="/imagenes/logo.jpeg" alt="Pescatlantica" className="logo" />
               <span className="brand-copy">
-                <span className="brand-name">Pescatlántica</span>
+                <span className="brand-name">Pescatlantica</span>
                 <span className="brand-tagline">Productos del Mar</span>
               </span>
             </a>
@@ -38,7 +36,7 @@ export default function RootLayout({ children }) {
         {children}
 
         <footer className="footer">
-          <p>&copy; 2026 Pescatlántica S.A. Todos los derechos reservados.</p>
+          <p>&copy; 2026 Pescatlantica S.A. Todos los derechos reservados.</p>
           <p>Planta en Caleta Olivia, Patagonia Argentina</p>
           <p>Pesca sostenible • Calidad certificada • Compromiso ambiental</p>
         </footer>
