@@ -392,6 +392,244 @@ section {
   max-width: 620px;
 }
 
+/* Product Page */
+.product-hero {
+  min-height: 440px;
+  padding: 0;
+  color: var(--white);
+  display: flex;
+  align-items: stretch;
+  background-color: var(--primary-color);
+}
+
+.merluza-hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
+    url('/imagenes/pescado-barco-web.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+.product-hero-overlay {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 92px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyebrow {
+  color: #f0f0f0;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.product-hero h1 {
+  font-size: clamp(2.35rem, 5vw, 4.4rem);
+  line-height: 1.08;
+  margin-bottom: 22px;
+}
+
+.product-hero p {
+  max-width: 780px;
+  font-size: 1.16rem;
+  line-height: 1.75;
+  margin-bottom: 30px;
+  opacity: 0.96;
+}
+
+.narrow-intro {
+  max-width: 820px;
+  text-align: center;
+}
+
+.narrow-intro p {
+  color: var(--text-light);
+  font-size: 1.08rem;
+  line-height: 1.9;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.product-detail-card {
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.product-detail-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.product-detail-card > div {
+  padding: 26px;
+}
+
+.product-detail-card h3 {
+  color: var(--primary-color);
+  font-size: 1.22rem;
+  margin-bottom: 14px;
+}
+
+.product-detail-card p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-top: 18px;
+}
+
+.check-list {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.check-list li {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  padding-left: 24px;
+  position: relative;
+}
+
+.check-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-size: 0.74rem;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-band {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+}
+
+.image-band img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
+.plant-feature {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  min-height: 460px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.plant-copy {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: clamp(36px, 5vw, 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.plant-copy h3 {
+  font-size: clamp(1.65rem, 3vw, 2.3rem);
+  margin-bottom: 22px;
+}
+
+.plant-copy p {
+  color: rgba(255, 255, 255, 0.84);
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.plant-feature img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.spec-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.spec-card {
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  border-top: 4px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 34px 30px;
+  box-shadow: var(--shadow);
+}
+
+.spec-card h3 {
+  color: var(--primary-color);
+  font-size: 1.22rem;
+  margin-bottom: 18px;
+}
+
+.spec-card ul {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.spec-card li {
+  color: var(--text-light);
+  line-height: 1.6;
+  font-size: 0.96rem;
+}
+
+.partnership-section {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.partnership-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.partnership-grid h2 {
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.15;
+}
+
+.partnership-grid p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 1.08rem;
+  line-height: 1.85;
+  margin-bottom: 18px;
+}
+
 /* Contact Form */
 .contact-grid {
   max-width: 1200px;
@@ -589,9 +827,24 @@ section {
   }
 
   .content-grid,
-  .contact-grid {
+  .contact-grid,
+  .plant-feature,
+  .partnership-grid {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+
+  .product-grid,
+  .spec-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .image-band {
+    grid-template-columns: 1fr;
+  }
+
+  .image-band img {
+    height: 260px;
   }
 
   .content-grid.reverse {
@@ -692,6 +945,19 @@ section {
     padding: 54px 18px;
   }
 
+  .product-hero {
+    min-height: 520px;
+  }
+
+  .product-hero-overlay {
+    padding: 64px 18px;
+  }
+
+  .product-hero p {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
   .hero h1 {
     font-size: 1.78rem;
   }
@@ -748,6 +1014,15 @@ section {
 
   .cards-container {
     grid-template-columns: 1fr;
+  }
+
+  .product-detail-card > div,
+  .spec-card {
+    padding: 26px 20px;
+  }
+
+  .plant-copy {
+    padding: 34px 22px;
   }
 
   .contact-info,

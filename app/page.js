@@ -138,6 +138,9 @@ export default function Home() {
                 Trabajamos con foco en consistencia, cadena de frío y control de
                 calidad en cada etapa del proceso.
               </p>
+              <div style={{ marginTop: '26px' }}>
+                <a href="/productos/merluza" className="btn btn-primary">Ver presentaciones</a>
+              </div>
             </div>
           </div>
         </div>
