@@ -78,7 +78,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="content-grid">
+          <div className="content-grid reverse">
             <div className="content-image">
               <img src="/imagenes/guardado-2.jpeg" alt="Empaquetado" loading="lazy" decoding="async" />
             </div>
@@ -95,7 +95,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="content-grid reverse">
+          <div className="content-grid">
             <div className="content-image">
               <img src="/imagenes/camion-web.jpeg" alt="Logística" loading="lazy" decoding="async" />
             </div>

@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
             <a href="/" className="brand" aria-label="Ir al inicio de Pescatlantica">
               <img src="/imagenes/logo.jpeg" alt="Pescatlantica" className="logo" />
               <span className="brand-copy">
-                <span className="brand-name">Pescatlantica</span>
+                <span className="brand-name">PESCATLANTICA</span>
                 <span className="brand-tagline">Productos del Mar</span>
               </span>
             </a>
