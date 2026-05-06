@@ -18,7 +18,7 @@ export default function Home() {
 
           <div className="content-grid">
             <div className="content-image">
-              <img src="/barco_costado.png" alt="Flota pesquera" />
+              <img src="/imagenes/barco_costado.png" alt="Flota pesquera" />
             </div>
             <div className="content-text">
               <h2>Flota Pesquera Propia</h2>
@@ -36,31 +36,47 @@ export default function Home() {
 
           <div className="content-grid reverse">
             <div className="content-image">
-              <img src="/guardado_2_.jpeg" alt="Procesamiento" />
+              <img src="/imagenes/fieteado.jpeg" alt="Fileteado de pescado" />
             </div>
             <div className="content-text">
-              <h2>Procesamiento de Alta Calidad</h2>
+              <h2>Procesamiento Inmediato</h2>
               <p>
-                Nuestras instalaciones cuentan con tecnología de última generación y 
-                certificaciones HACCP e ISO 9001, asegurando productos que cumplen con 
-                las más exigentes normativas.
+                El pescado se procesa en planta dentro de las primeras horas posteriores 
+                a la captura, garantizando máxima frescura y calidad en cada producto.
               </p>
               <p>
-                Procesamos el pescado inmediatamente después de la captura, manteniendo 
-                la cadena de frío ininterrumpida.
+                Nuestro equipo especializado realiza el fileteado, eviscerado y preparación 
+                con los más altos estándares de higiene y calidad.
               </p>
             </div>
           </div>
 
           <div className="content-grid">
             <div className="content-image">
-              <img src="/camion.jpeg" alt="Logística" />
+              <img src="/imagenes/guardado 2 .jpeg" alt="Empaquetado" />
+            </div>
+            <div className="content-text">
+              <h2>Empaquetado y Conservación</h2>
+              <p>
+                Utilizamos sistemas de empaquetado al vacío y atmósfera modificada para 
+                preservar la frescura y prolongar la vida útil de nuestros productos.
+              </p>
+              <p>
+                Cada unidad es etiquetada con información completa de trazabilidad, 
+                desde la embarcación hasta el empaque final.
+              </p>
+            </div>
+          </div>
+
+          <div className="content-grid reverse">
+            <div className="content-image">
+              <img src="/imagenes/camion.jpeg" alt="Logística" />
             </div>
             <div className="content-text">
               <h2>Logística Especializada</h2>
               <p>
                 Nuestra red de distribución garantiza la entrega oportuna en todo el 
-                territorio nacional, manteniendo la cadena de frío.
+                territorio nacional, manteniendo la cadena de frío ininterrumpida.
               </p>
               <p>
                 Trabajamos con flotas propias y socios logísticos certificados para 
@@ -115,6 +131,49 @@ export default function Home() {
       </section>
 
       <section style={{ backgroundColor: 'var(--bg-light)' }}>
+        <div className="content-section">
+          <h2 className="section-title">Equipo y Tecnología</h2>
+          <p className="section-subtitle">
+            Personal capacitado y equipamiento de última generación
+          </p>
+
+          <div className="content-grid">
+            <div className="content-image">
+              <img src="/imagenes/WhatsApp Image 2026-05-04 at 09.13.18.jpeg" alt="Equipo de trabajo" />
+            </div>
+            <div className="content-text">
+              <h2>Personal Especializado</h2>
+              <p>
+                Nuestro equipo está compuesto por profesionales capacitados en todas 
+                las áreas de producción, desde la captura hasta el control de calidad.
+              </p>
+              <p>
+                Implementamos programas de capacitación continua para mantener los 
+                más altos estándares de seguridad alimentaria y eficiencia operativa.
+              </p>
+            </div>
+          </div>
+
+          <div className="content-grid reverse">
+            <div className="content-image">
+              <img src="/imagenes/WhatsApp Image 2026-05-04 at 09.13.25 (1).jpeg" alt="Planta de procesamiento" />
+            </div>
+            <div className="content-text">
+              <h2>Instalaciones Modernas</h2>
+              <p>
+                Contamos con plantas equipadas con tecnología de punta y sistemas 
+                de control de temperatura en todas las etapas.
+              </p>
+              <p>
+                Nuestras instalaciones cumplen con certificaciones HACCP, ISO 9001 
+                y habilitaciones SENASA para exportación.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
         <div className="content-section">
           <h2 className="section-title">Compromiso con la Sustentabilidad</h2>
           <p className="section-subtitle">

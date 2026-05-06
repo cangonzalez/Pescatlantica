@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <header className="header">
           <div className="header-container">
-            <img src="/logo.jpeg" alt="Pescatlántica" className="logo" />
+            <img src="/imagenes/logo.jpeg" alt="Pescatlántica" className="logo" />
           </div>
         </header>
 
