@@ -11,18 +11,26 @@ export default function RootLayout({ children }) {
       <body>
         <header className="header">
           <div className="header-container">
-            <img src="/imagenes/logo.jpeg" alt="Pescatlántica" className="logo" />
+            <a href="/" className="brand" aria-label="Ir al inicio de Pescatlántica">
+              <span className="logo-mark">
+                <img src="/imagenes/logo.jpeg" alt="Pescatlántica" className="logo" />
+              </span>
+              <span className="brand-copy">
+                <span className="brand-name">Pescatlántica</span>
+                <span className="brand-tagline">Productos del Mar</span>
+              </span>
+            </a>
+
+            <nav className="nav" aria-label="Navegación principal">
+              <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/nosotros">Nosotros</a></li>
+                <li><a href="/servicios">Servicios</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+              </ul>
+            </nav>
           </div>
         </header>
-
-        <nav className="nav">
-          <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="/nosotros">Nosotros</a></li>
-            <li><a href="/servicios">Servicios</a></li>
-            <li><a href="/contacto">Contacto</a></li>
-          </ul>
-        </nav>
 
         {children}
 

@@ -18,7 +18,12 @@ export default function Home() {
 
           <div className="content-grid">
             <div className="content-image">
-              <img src="/imagenes/barco_costado.png" alt="Flota pesquera" />
+              <img
+                src="/imagenes/barco-costado-web.jpeg"
+                alt="Flota pesquera"
+                fetchPriority="high"
+                decoding="async"
+              />
             </div>
             <div className="content-text">
               <h2>Flota Pesquera Propia</h2>
@@ -36,7 +41,7 @@ export default function Home() {
 
           <div className="content-grid reverse">
             <div className="content-image">
-              <img src="/imagenes/fileteado.jpeg" alt="Fileteado de pescado" />
+              <img src="/imagenes/fileteado.jpeg" alt="Fileteado de pescado" loading="lazy" decoding="async" />
             </div>
             <div className="content-text">
               <h2>Procesamiento Inmediato</h2>
@@ -53,7 +58,7 @@ export default function Home() {
 
           <div className="content-grid">
             <div className="content-image">
-              <img src="/imagenes/guardado-2.jpeg" alt="Empaquetado" />
+              <img src="/imagenes/guardado-2.jpeg" alt="Empaquetado" loading="lazy" decoding="async" />
             </div>
             <div className="content-text">
               <h2>Empaquetado y Conservación</h2>
@@ -70,7 +75,7 @@ export default function Home() {
 
           <div className="content-grid reverse">
             <div className="content-image">
-              <img src="/imagenes/camion.jpeg" alt="Logística" />
+              <img src="/imagenes/camion-web.jpeg" alt="Logística" loading="lazy" decoding="async" />
             </div>
             <div className="content-text">
               <h2>Logística Especializada</h2>
@@ -139,7 +144,7 @@ export default function Home() {
 
           <div className="content-grid">
             <div className="content-image">
-              <img src="/imagenes/equipo-trabajo.jpeg" alt="Equipo de trabajo" />
+              <img src="/imagenes/equipo-trabajo.jpeg" alt="Equipo de trabajo" loading="lazy" decoding="async" />
             </div>
             <div className="content-text">
               <h2>Personal Especializado</h2>
@@ -156,7 +161,7 @@ export default function Home() {
 
           <div className="content-grid reverse">
             <div className="content-image">
-              <img src="/imagenes/planta-procesamiento.jpeg" alt="Planta de procesamiento" />
+              <img src="/imagenes/planta-procesamiento.jpeg" alt="Planta de procesamiento" loading="lazy" decoding="async" />
             </div>
             <div className="content-text">
               <h2>Instalaciones Modernas</h2>
