@@ -9,32 +9,6 @@ export default function Home() {
         </p>
       </section>
 
-      <section>
-        <div className="content-section">
-          <div className="content-grid reverse">
-            <div className="content-image">
-              <img
-                src="/imagenes/pescado_barco.jpeg"
-                alt="Equipo pesquero con captura diaria a bordo"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-            <div className="content-text">
-              <h2>Captura diaria</h2>
-              <p>
-                Nuestro equipo realiza capturas diarias asegurando productos frescos 
-                y abastecimiento constante.
-              </p>
-              <p>
-                Cada operación se trabaja con foco en trazabilidad, calidad y cuidado 
-                de la cadena de valor desde el origen.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section style={{ backgroundColor: 'var(--bg-light)' }}>
         <div className="content-section">
           <h2 className="section-title">Nuestra Operación</h2>
@@ -66,6 +40,28 @@ export default function Home() {
           </div>
 
           <div className="content-grid reverse">
+            <div className="content-image">
+              <img
+                src="/imagenes/pescado_barco.jpeg"
+                alt="Equipo pesquero con captura diaria a bordo"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="content-text">
+              <h2>Captura diaria</h2>
+              <p>
+                Nuestro equipo realiza capturas diarias asegurando productos frescos 
+                y abastecimiento constante.
+              </p>
+              <p>
+                Cada operación se trabaja con foco en trazabilidad, calidad y cuidado 
+                de la cadena de valor desde el origen.
+              </p>
+            </div>
+          </div>
+
+          <div className="content-grid">
             <div className="content-image">
               <img src="/imagenes/fileteado.jpeg" alt="Fileteado de pescado" loading="lazy" decoding="async" />
             </div>
