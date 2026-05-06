@@ -216,6 +216,51 @@ body {
   text-align: center;
 }
 
+.home-hero {
+  min-height: clamp(500px, 66vh, 640px);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.58) 48%, rgba(0, 0, 0, 0.18) 100%),
+    url('/imagenes/merluza/merluza-hielo-hero.jpeg');
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+}
+
+.home-hero-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(72px, 9vw, 112px) 20px;
+}
+
+.hero .hero-kicker {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.hero.home-hero h1 {
+  max-width: 860px;
+  font-size: clamp(2.5rem, 4.8vw, 4.55rem);
+  line-height: 1.04;
+  margin-bottom: 22px;
+}
+
+.hero.home-hero p {
+  max-width: 680px;
+  margin: 0 0 32px;
+}
+
+.hero.home-hero .hero-actions {
+  justify-content: flex-start;
+}
+
 .hero h1 {
   font-size: 3rem;
   font-weight: 700;
@@ -945,6 +990,32 @@ section {
 
   .hero {
     padding: 54px 18px;
+  }
+
+  .home-hero {
+    min-height: 560px;
+    padding: 0;
+    text-align: center;
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
+      url('/imagenes/merluza/merluza-hielo-hero.jpeg');
+  }
+
+  .home-hero-inner {
+    padding: 64px 18px;
+  }
+
+  .hero.home-hero h1 {
+    font-size: 2.35rem;
+  }
+
+  .hero.home-hero p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero.home-hero .hero-actions {
+    justify-content: center;
   }
 
   .product-hero {

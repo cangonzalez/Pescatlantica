@@ -1,16 +1,19 @@
 export default function Home() {
   return (
     <main>
-      <section className="hero">
-        <h1>Merluza del Atlántico Sur procesada en Patagonia Argentina</h1>
-        <p>
-          Pescatlantica Group S.A.S trabaja en la captura, procesamiento y
-          comercialización de merluza, con planta productiva en Caleta Olivia,
-          Santa Cruz.
-        </p>
-        <div className="hero-actions">
-          <a href="/contacto" className="btn">Consultar por merluza</a>
-          <a href="/servicios" className="btn btn-secondary">Ver servicios</a>
+      <section className="hero home-hero">
+        <div className="home-hero-inner">
+          <p className="hero-kicker">Caleta Olivia · Patagonia Argentina</p>
+          <h1>Merluza argentina procesada en origen</h1>
+          <p>
+            Captura, procesamiento y preparación comercial de merluza con planta
+            productiva en Santa Cruz, trazabilidad por lote y cadena de frío
+            controlada.
+          </p>
+          <div className="hero-actions">
+            <a href="/productos/merluza" className="btn">Ver presentaciones</a>
+            <a href="/contacto" className="btn btn-secondary">Consultar disponibilidad</a>
+          </div>
         </div>
       </section>
 
