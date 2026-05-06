@@ -5,7 +5,11 @@ const contactRecipient = process.env.CONTACT_TO_EMAIL || 'candelariagonzalez03@g
 export async function POST(request) {
   try {
     const body = await request.json();
-    const { nombre, empresa, email, telefono, asunto, mensaje } = body;
+    const { nombre, empresa, email, telefono, asunto, mensaje, website } = body;
+
+    if (website) {
+      return Response.json({ ok: true });
+    }
 
     if (!nombre || !email || !asunto || !mensaje) {
       return Response.json(

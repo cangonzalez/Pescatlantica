@@ -9,7 +9,8 @@ export default function ContactoPage() {
     email: '',
     telefono: '',
     asunto: '',
-    mensaje: ''
+    mensaje: '',
+    website: ''
   });
 
   const [errors, setErrors] = useState({});
@@ -33,6 +34,10 @@ export default function ContactoPage() {
 
     if (submitError) {
       setSubmitError('');
+    }
+
+    if (submitted) {
+      setSubmitted(false);
     }
   };
 
@@ -93,7 +98,8 @@ export default function ContactoPage() {
         email: '',
         telefono: '',
         asunto: '',
-        mensaje: ''
+        mensaje: '',
+        website: ''
       });
     } catch (error) {
       setSubmitError(error.message);
@@ -107,8 +113,8 @@ export default function ContactoPage() {
       <section className="hero">
         <h1>Contacto</h1>
         <p>
-          Estamos a su disposición para responder consultas comerciales, 
-          solicitudes de cotización y cualquier información sobre nuestros servicios.
+          Completá el formulario para consultas comerciales, disponibilidad de merluza
+          y solicitudes de cotización.
         </p>
       </section>
 
@@ -119,39 +125,18 @@ export default function ContactoPage() {
 
             <div className="info-item">
               <strong>Atención comercial</strong>
-              Consultas sobre productos, cotizaciones y disponibilidad.<br />
-              Respondemos solicitudes de clientes nacionales e internacionales.
+              Recibimos consultas por productos, volúmenes, presentaciones y 
+              condiciones comerciales a través del formulario.
             </div>
 
             <div className="info-item">
-              <strong>Planta</strong>
-              Caleta Olivia, Patagonia Argentina.
+              <strong>Planta productiva</strong>
+              Caleta Olivia, Santa Cruz, Patagonia Argentina.
             </div>
 
             <div className="info-item">
-              <strong>📞 Teléfono</strong>
-              +54 223 XXX-XXXX<br />
-              Lunes a Viernes: 8:00 - 18:00 hs
-            </div>
-
-            <div className="info-item">
-              <strong>✉️ Email</strong>
-              ventas@pescatlantica.com.ar<br />
-              info@pescatlantica.com.ar
-            </div>
-
-            <div className="info-item">
-              <strong>💼 Departamentos</strong>
-              <strong>Ventas:</strong> ventas@pescatlantica.com.ar<br />
-              <strong>Exportaciones:</strong> export@pescatlantica.com.ar<br />
-              <strong>Calidad:</strong> calidad@pescatlantica.com.ar<br />
-              <strong>Admin:</strong> admin@pescatlantica.com.ar
-            </div>
-
-            <div className="info-item">
-              <strong>🕒 Horario</strong>
-              Lunes a Viernes: 8:00 - 18:00 hs<br />
-              Sábados, Domingos y feriados: Cerrado
+              <strong>Producto actual</strong>
+              Merluza fresca y congelada según disponibilidad y requerimiento comercial.
             </div>
           </div>
 
@@ -171,6 +156,19 @@ export default function ContactoPage() {
             )}
 
             <form onSubmit={handleSubmit}>
+              <div className="form-honeypot" aria-hidden="true">
+                <label htmlFor="website">Sitio web</label>
+                <input
+                  id="website"
+                  type="text"
+                  name="website"
+                  tabIndex="-1"
+                  autoComplete="off"
+                  value={formData.website}
+                  onChange={handleChange}
+                />
+              </div>
+
               <div className="form-group">
                 <label htmlFor="nombre">Nombre y Apellido *</label>
                 <input
@@ -219,7 +217,7 @@ export default function ContactoPage() {
                   id="telefono"
                   type="tel"
                   name="telefono"
-                  placeholder="+54 11 XXXX-XXXX"
+                  placeholder="+54 9 ..."
                   value={formData.telefono}
                   onChange={handleChange}
                 />
@@ -283,24 +281,24 @@ export default function ContactoPage() {
             <div className="card">
               <h3>¿Hacen exportaciones?</h3>
               <p>
-                Sí, contamos con habilitaciones para exportar a múltiples países. 
-                Consulte con comercio exterior.
+                Evaluamos cada operación según destino, volumen, documentación y 
+                condiciones comerciales requeridas.
               </p>
             </div>
 
             <div className="card">
-              <h3>¿Tienen certificaciones?</h3>
+              <h3>¿Cómo trabajan la calidad?</h3>
               <p>
-                Sí: HACCP, ISO 9001:2015, habilitación SENASA para exportación 
-                y cumplimiento de estándares sanitarios.
+                Trabajamos con criterios de inocuidad, trazabilidad y control del 
+                producto durante el proceso.
               </p>
             </div>
 
             <div className="card">
-              <h3>¿Ofrecen productos personalizados?</h3>
+              <h3>¿Qué producto comercializan?</h3>
               <p>
-                Sí, trabajamos con clientes industriales en desarrollo de 
-                productos a medida.
+                Actualmente comercializamos merluza en presentaciones frescas y 
+                congeladas, según disponibilidad.
               </p>
             </div>
           </div>

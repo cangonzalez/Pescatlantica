@@ -4,8 +4,8 @@ export default function NosotrosPage() {
       <section className="hero">
         <h1>Sobre Pescatlantica</h1>
         <p>
-          Más de dos décadas de experiencia en la industria pesquera argentina, 
-          construyendo una empresa sólida basada en la calidad y el compromiso.
+          Una empresa pesquera ubicada en Caleta Olivia, Patagonia Argentina, 
+          enfocada en merluza, calidad y trazabilidad.
         </p>
       </section>
 
@@ -45,18 +45,16 @@ export default function NosotrosPage() {
             <div className="card">
               <h3>Misión</h3>
               <p>
-                Proveer productos pesqueros de la más alta calidad al mercado nacional 
-                e internacional, operando de manera responsable y sustentable en toda 
-                la cadena de valor.
+                Proveer merluza con estándares consistentes de calidad, cuidado de la
+                cadena de frío y trazabilidad desde el origen.
               </p>
             </div>
 
             <div className="card">
               <h3>Visión</h3>
               <p>
-                Ser reconocidos como la empresa pesquera argentina de referencia por 
-                excelencia operativa, compromiso con la sustentabilidad e innovación 
-                tecnológica.
+                Consolidarnos como una empresa confiable para clientes comerciales e
+                industriales que buscan abastecimiento responsable desde Patagonia.
               </p>
             </div>
 
@@ -77,7 +75,7 @@ export default function NosotrosPage() {
         <div className="content-section">
           <h2 className="section-title">Infraestructura y Capacidades</h2>
           <p className="section-subtitle">
-            Instalaciones modernas y equipamiento de última generación
+            Instalaciones y equipamiento orientados al procesamiento de merluza
           </p>
 
           <div className="cards-container">
@@ -92,24 +90,24 @@ export default function NosotrosPage() {
             <div className="card">
               <h3>Planta de Procesamiento</h3>
               <p>
-                Instalaciones certificadas HACCP e ISO 9001, con líneas automatizadas, 
-                cámaras frigoríficas y control de calidad integral.
+                Instalaciones orientadas al procesamiento, conservación y preparación
+                comercial de merluza.
               </p>
             </div>
 
             <div className="card">
               <h3>Laboratorio de Calidad</h3>
               <p>
-                Laboratorio interno para análisis físico-químicos, microbiológicos y 
-                sensoriales en todas las etapas.
+                Controles operativos para acompañar calidad, trazabilidad y consistencia
+                durante el proceso.
               </p>
             </div>
 
             <div className="card">
               <h3>Logística Integrada</h3>
               <p>
-                Centro de distribución con cámaras de conservación, flota refrigerada 
-                y gestión que garantiza entregas puntuales.
+                Coordinación logística para conservar el producto y responder a cada
+                requerimiento comercial.
               </p>
             </div>
           </div>
@@ -128,16 +126,16 @@ export default function NosotrosPage() {
               <div className="card">
                 <h3>Mercado Nacional</h3>
                 <p>
-                  Supermercados, pescaderías, restaurantes y distribuidores mayoristas 
-                  en todo el territorio argentino.
+                  Atención a clientes comerciales e industriales según disponibilidad,
+                  volumen y presentación.
                 </p>
               </div>
 
               <div className="card">
                 <h3>Exportaciones</h3>
                 <p>
-                  Clientes en Europa, Asia y América, cumpliendo requisitos sanitarios 
-                  de cada mercado.
+                  Preparación de operaciones internacionales según requisitos comerciales
+                  y documentación aplicable.
                 </p>
               </div>
 

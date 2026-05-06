@@ -2,11 +2,16 @@ export default function Home() {
   return (
     <main>
       <section className="hero">
-        <h1>Excelencia en Productos del Mar</h1>
+        <h1>Merluza del Atlántico Sur procesada en Patagonia Argentina</h1>
         <p>
-          Pescatlantica Group S.A.S es una empresa integrada verticalmente especializada en la captura, 
-          procesamiento y comercialización de productos pesqueros del Atlántico Sur.
+          Pescatlantica Group S.A.S trabaja en la captura, procesamiento y
+          comercialización de merluza, con planta productiva en Caleta Olivia,
+          Santa Cruz.
         </p>
+        <div className="hero-actions">
+          <a href="/contacto" className="btn">Consultar por merluza</a>
+          <a href="/servicios" className="btn btn-secondary">Ver servicios</a>
+        </div>
       </section>
 
       <section style={{ backgroundColor: 'var(--bg-light)' }}>
@@ -29,12 +34,12 @@ export default function Home() {
               <h2>Flota Pesquera Propia</h2>
               <p>
                 Contamos con una flota moderna de embarcaciones equipadas con tecnología 
-                de punta que operan en el Atlántico Sur, garantizando capturas responsables 
-                y trazabilidad completa desde el origen.
+                adecuada que opera en el Atlántico Sur, con foco en capturas responsables 
+                y trazabilidad desde el origen.
               </p>
               <p>
-                Nuestros buques cumplen con los más altos estándares internacionales de 
-                seguridad y operan bajo estrictos protocolos de pesca sostenible.
+                La operación se realiza con foco en seguridad, continuidad de suministro
+                y cuidado responsable del recurso.
               </p>
             </div>
           </div>
@@ -68,12 +73,12 @@ export default function Home() {
             <div className="content-text">
               <h2>Procesamiento Inmediato</h2>
               <p>
-                El pescado se procesa en planta dentro de las primeras horas posteriores 
-                a la captura, garantizando máxima frescura y calidad en cada producto.
+                El pescado se procesa en planta con protocolos orientados a preservar 
+                frescura, calidad y condiciones de conservación.
               </p>
               <p>
-                Nuestro equipo especializado realiza el fileteado, eviscerado y preparación 
-                con los más altos estándares de higiene y calidad.
+                Nuestro equipo realiza fileteado, eviscerado y preparación con criterios 
+                de higiene, orden y control operativo.
               </p>
             </div>
           </div>
@@ -102,12 +107,12 @@ export default function Home() {
             <div className="content-text">
               <h2>Logística Especializada</h2>
               <p>
-                Nuestra red de distribución garantiza la entrega oportuna en todo el 
-                territorio nacional, manteniendo la cadena de frío ininterrumpida.
+                Coordinamos la distribución según las necesidades comerciales de cada 
+                cliente, cuidando la cadena de frío durante la logística.
               </p>
               <p>
-                Trabajamos con flotas propias y socios logísticos certificados para 
-                atender mercado local y exportaciones internacionales.
+                Trabajamos con planificación operativa para sostener calidad, trazabilidad 
+                y cumplimiento en cada entrega.
               </p>
             </div>
           </div>
@@ -126,7 +131,7 @@ export default function Home() {
             <div className="card product-card">
               <h3>Merluza</h3>
               <p>
-                Merluza hubbsi de primera calidad, disponible en presentaciones
+                Merluza hubbsi disponible en presentaciones
                 frescas y congeladas según disponibilidad y requerimientos comerciales.
               </p>
               <p>
@@ -142,7 +147,7 @@ export default function Home() {
         <div className="content-section">
           <h2 className="section-title">Equipo y Tecnología</h2>
           <p className="section-subtitle">
-            Personal capacitado y equipamiento de última generación
+            Personal capacitado y equipamiento especializado para el proceso productivo
           </p>
 
           <div className="content-grid">
@@ -156,8 +161,8 @@ export default function Home() {
                 las áreas de producción, desde la captura hasta el control de calidad.
               </p>
               <p>
-                Implementamos programas de capacitación continua para mantener los 
-                más altos estándares de seguridad alimentaria y eficiencia operativa.
+                Implementamos capacitación continua para sostener seguridad alimentaria, 
+                eficiencia operativa y buenas prácticas de trabajo.
               </p>
             </div>
           </div>
@@ -173,8 +178,8 @@ export default function Home() {
                 de control de temperatura en las distintas etapas del proceso.
               </p>
               <p>
-                Nuestras instalaciones cumplen con certificaciones HACCP, ISO 9001 
-                y habilitaciones SENASA para exportación.
+                El trabajo se organiza bajo criterios de inocuidad, trazabilidad y control 
+                operativo para responder a las exigencias comerciales del sector.
               </p>
             </div>
           </div>
@@ -198,10 +203,10 @@ export default function Home() {
             </div>
 
             <div className="card">
-              <h3>Certificaciones</h3>
+              <h3>Criterios de Calidad</h3>
               <p>
-                Operaciones certificadas bajo estándares internacionales: 
-                HACCP, ISO 9001 y MSC en proceso.
+                Aplicamos controles internos orientados a inocuidad, trazabilidad y 
+                consistencia del producto.
               </p>
             </div>
 

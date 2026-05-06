@@ -2,8 +2,8 @@ import '../styles/globals.css';
 import LanguageSelector from './components/LanguageSelector';
 
 export const metadata = {
-  title: 'Pescatlantica - Procesamiento y Comercialización de Productos del Mar',
-  description: 'Empresa líder en captura, procesamiento y distribución de productos pesqueros del Atlántico Sur.',
+  title: 'Pescatlantica Group S.A.S - Merluza del Atlántico Sur',
+  description: 'Procesamiento y comercialización de merluza con planta productiva en Caleta Olivia, Santa Cruz, Patagonia Argentina.',
 };
 
 export default function RootLayout({ children }) {
@@ -36,9 +36,9 @@ export default function RootLayout({ children }) {
         {children}
 
         <footer className="footer">
-          <p>&copy; 2026 Pescatlantica Group S.A.S Todos los derechos reservados.</p>
-          <p>Planta en Caleta Olivia, Patagonia Argentina</p>
-          <p>Pesca sostenible • Calidad certificada • Compromiso ambiental</p>
+          <p>&copy; 2026 Pescatlantica Group S.A.S. Todos los derechos reservados.</p>
+          <p>Planta productiva en Caleta Olivia, Santa Cruz, Patagonia Argentina</p>
+          <p>Trazabilidad • Cadena de frío • Compromiso operativo</p>
         </footer>
       </body>
     </html>

@@ -4,8 +4,8 @@ export default function ServiciosPage() {
       <section className="hero">
         <h1>Nuestros Servicios</h1>
         <p>
-          Soluciones integrales para el mercado pesquero, desde la captura hasta 
-          la entrega final, adaptadas a las necesidades de cada cliente.
+          Servicios de captura, procesamiento y preparación comercial de merluza,
+          adaptados a las necesidades de cada cliente.
         </p>
       </section>
 
@@ -13,7 +13,7 @@ export default function ServiciosPage() {
         <div className="content-section">
           <h2 className="section-title">Captura y Procesamiento</h2>
           <p className="section-subtitle">
-            Operación integrada que garantiza productos de máxima frescura y calidad
+            Operación integrada orientada a preservar frescura, calidad y trazabilidad
           </p>
 
           <div className="cards-container">
@@ -32,12 +32,11 @@ export default function ServiciosPage() {
             <div className="card">
               <h3>Procesamiento Inmediato</h3>
               <p>
-                El pescado se procesa en planta dentro de las primeras horas, 
-                garantizando máxima frescura. Líneas de eviscerado, descabezado, 
-                fileteado y envasado.
+                El pescado se procesa en planta con foco en frescura, conservación y 
+                preparación comercial. Líneas de eviscerado, descabezado, fileteado y envasado.
               </p>
               <p style={{ marginTop: '12px' }}>
-                <strong>Certificaciones:</strong> HACCP, ISO 9001:2015, SENASA.
+                <strong>Enfoque:</strong> inocuidad, trazabilidad y consistencia operativa.
               </p>
             </div>
 
@@ -116,33 +115,33 @@ export default function ServiciosPage() {
             <div className="card">
               <h3>Distribución Nacional</h3>
               <p>
-                Atendemos todo el territorio con flota propia y socios certificados. 
-                Vehículos con refrigeración y monitoreo de temperatura en tiempo real.
+                Coordinamos entregas según disponibilidad, volumen y destino comercial,
+                cuidando las condiciones de conservación del producto.
               </p>
               <p style={{ marginTop: '12px' }}>
-                <strong>Cobertura:</strong> Buenos Aires, Córdoba, Rosario, Mendoza, Patagonia.
+                <strong>Coordinación:</strong> planificación logística según cada operación.
               </p>
             </div>
 
             <div className="card">
               <h3>Exportaciones</h3>
               <p>
-                Experiencia en despachos a Europa, Asia y América. Habilitaciones 
-                SENASA y cumplimiento de requisitos sanitarios internacionales.
+                Acompañamos operaciones comerciales con documentación y preparación 
+                según los requisitos del destino.
               </p>
               <p style={{ marginTop: '12px' }}>
-                <strong>Servicios:</strong> Documentación, aduana, logística puerta a puerta.
+                <strong>Servicios:</strong> coordinación documental, comercial y logística.
               </p>
             </div>
 
             <div className="card">
               <h3>Almacenamiento</h3>
               <p>
-                Cámaras de refrigeración (0-4°C) y congelación (-18°C) con control 
-                de inventario en tiempo real.
+                Conservación del producto bajo condiciones de frío adecuadas para 
+                mantener calidad y estabilidad durante el proceso.
               </p>
               <p style={{ marginTop: '12px' }}>
-                <strong>Capacidad:</strong> 2.000 m³ refrigerado, 1.500 m³ congelado.
+                <strong>Control:</strong> gestión por lote, presentación y estado del producto.
               </p>
             </div>
           </div>
@@ -163,18 +162,18 @@ export default function ServiciosPage() {
             </div>
 
             <div className="card">
-              <h3>Desarrollo de Producto</h3>
+              <h3>Preparación Comercial</h3>
               <p>
-                Trabajamos con clientes industriales en desarrollo de productos con 
-                especificaciones a medida.
+                Adaptamos clasificación, empaque y presentación según disponibilidad
+                y requerimiento comercial.
               </p>
             </div>
 
             <div className="card">
-              <h3>Certificaciones</h3>
+              <h3>Documentación</h3>
               <p>
-                Asistencia en obtención de certificaciones y documentación para 
-                operaciones y exportaciones.
+                Acompañamos la preparación de documentación comercial y operativa 
+                necesaria para cada venta.
               </p>
             </div>
           </div>
