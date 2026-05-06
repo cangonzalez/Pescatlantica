@@ -4,7 +4,7 @@ export default function Home() {
       <section className="hero">
         <h1>Excelencia en Productos del Mar</h1>
         <p>
-          Pescatlantica S.A. es una empresa integrada verticalmente especializada en la captura, 
+          Pescatlantica Group S.A.S es una empresa integrada verticalmente especializada en la captura, 
           procesamiento y comercialización de productos pesqueros del Atlántico Sur.
         </p>
       </section>

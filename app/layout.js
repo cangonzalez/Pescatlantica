@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
         {children}
 
         <footer className="footer">
-          <p>&copy; 2026 Pescatlantica S.A. Todos los derechos reservados.</p>
+          <p>&copy; 2026 Pescatlantica Group S.A.S Todos los derechos reservados.</p>
           <p>Planta en Caleta Olivia, Patagonia Argentina</p>
           <p>Pesca sostenible • Calidad certificada • Compromiso ambiental</p>
         </footer>

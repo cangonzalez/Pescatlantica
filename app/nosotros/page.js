@@ -19,7 +19,7 @@ export default function NosotrosPage() {
 
           <div style={{ maxWidth: '900px', margin: '0 auto' }}>
             <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: 'var(--text-light)', marginBottom: '20px' }}>
-              Pescatlantica S.A. nace con la visión de integrar verticalmente la cadena 
+              Pescatlantica Group S.A.S nace con la visión de integrar verticalmente la cadena 
               productiva pesquera, conectando captura, procesamiento, control de calidad 
               y comercialización bajo un mismo estándar de trabajo.
             </p>
