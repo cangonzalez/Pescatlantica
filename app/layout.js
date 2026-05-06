@@ -1,4 +1,5 @@
 import '../styles/globals.css';
+import LanguageSelector from './components/LanguageSelector';
 
 export const metadata = {
   title: 'Pescatlántica - Procesamiento y Comercialización de Productos del Mar',
@@ -29,6 +30,8 @@ export default function RootLayout({ children }) {
                 <li><a href="/contacto">Contacto</a></li>
               </ul>
             </nav>
+
+            <LanguageSelector />
           </div>
         </header>
 
@@ -36,6 +39,7 @@ export default function RootLayout({ children }) {
 
         <footer className="footer">
           <p>&copy; 2026 Pescatlántica S.A. Todos los derechos reservados.</p>
+          <p>Planta en Caleta Olivia, Patagonia Argentina</p>
           <p>Pesca sostenible • Calidad certificada • Compromiso ambiental</p>
         </footer>
       </body>

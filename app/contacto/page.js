@@ -14,6 +14,8 @@ export default function ContactoPage() {
 
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState('');
+  const [submitting, setSubmitting] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,6 +29,10 @@ export default function ContactoPage() {
         ...errors,
         [name]: ''
       });
+    }
+
+    if (submitError) {
+      setSubmitError('');
     }
   };
 
@@ -53,7 +59,7 @@ export default function ContactoPage() {
     return newErrors;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
     const newErrors = validateForm();
@@ -63,9 +69,24 @@ export default function ContactoPage() {
       return;
     }
 
-    setSubmitted(true);
-    
-    setTimeout(() => {
+    setSubmitting(true);
+    setSubmitError('');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        const data = await response.json().catch(() => ({}));
+        throw new Error(data.error || 'No se pudo enviar la consulta.');
+      }
+
+      setSubmitted(true);
       setFormData({
         nombre: '',
         empresa: '',
@@ -74,8 +95,11 @@ export default function ContactoPage() {
         asunto: '',
         mensaje: ''
       });
-      setSubmitted(false);
-    }, 4000);
+    } catch (error) {
+      setSubmitError(error.message);
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -97,6 +121,11 @@ export default function ContactoPage() {
               <strong>Atención comercial</strong>
               Consultas sobre productos, cotizaciones y disponibilidad.<br />
               Respondemos solicitudes de clientes nacionales e internacionales.
+            </div>
+
+            <div className="info-item">
+              <strong>Planta</strong>
+              Caleta Olivia, Patagonia Argentina.
             </div>
 
             <div className="info-item">
@@ -132,6 +161,12 @@ export default function ContactoPage() {
             {submitted && (
               <div className="success-message">
                 ✓ Su consulta ha sido enviada. Nos pondremos en contacto a la brevedad.
+              </div>
+            )}
+
+            {submitError && (
+              <div className="error-box">
+                {submitError}
               </div>
             )}
 
@@ -220,8 +255,8 @@ export default function ContactoPage() {
                 )}
               </div>
 
-              <button className="btn" type="submit">
-                Enviar Consulta
+              <button className="btn" type="submit" disabled={submitting}>
+                {submitting ? 'Enviando...' : 'Enviar Consulta'}
               </button>
 
               <p style={{ fontSize: '0.875rem', color: 'var(--text-light)', marginTop: '16px' }}>

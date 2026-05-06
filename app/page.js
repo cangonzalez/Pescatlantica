@@ -9,6 +9,26 @@ export default function Home() {
         </p>
       </section>
 
+      <section className="capture-feature">
+        <div className="capture-copy">
+          <span className="eyebrow">Operación en origen</span>
+          <h2>Captura diaria</h2>
+          <p>
+            Nuestro equipo trabaja cada jornada para asegurar productos frescos,
+            trazabilidad desde el origen y abastecimiento constante para clientes
+            nacionales e internacionales.
+          </p>
+        </div>
+        <div className="capture-image">
+          <img
+            src="/imagenes/pescado-barco-web.jpeg"
+            alt="Equipo pesquero con captura diaria a bordo"
+            fetchPriority="high"
+            decoding="async"
+          />
+        </div>
+      </section>
+
       <section style={{ backgroundColor: 'var(--bg-light)' }}>
         <div className="content-section">
           <h2 className="section-title">Nuestra Operación</h2>
@@ -96,39 +116,20 @@ export default function Home() {
         <div className="content-section">
           <h2 className="section-title">Nuestros Productos</h2>
           <p className="section-subtitle">
-            Amplia variedad de especies del Atlántico Sur procesadas con los más altos estándares
+            Actualmente comercializamos merluza procesada con altos estándares de calidad,
+            frescura y trazabilidad.
           </p>
 
-          <div className="cards-container">
-            <div className="card">
+          <div className="featured-product">
+            <div className="card product-card">
               <h3>Merluza</h3>
               <p>
-                Merluza hubbsi de primera calidad, disponible fresca y congelada. 
-                Filetes, HG y productos con valor agregado.
+                Merluza hubbsi de primera calidad, disponible en presentaciones
+                frescas y congeladas según disponibilidad y requerimientos comerciales.
               </p>
-            </div>
-
-            <div className="card">
-              <h3>Corvina</h3>
               <p>
-                Corvina rubia y negra capturada en aguas del Atlántico Sur. 
-                Excelente para mercados gourmet.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Calamar</h3>
-              <p>
-                Illex argentinus, principal producto de exportación. Disponible en 
-                tube, ring, tentáculo y elaborados.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>Productos con Valor Agregado</h3>
-              <p>
-                Desarrollo de productos especiales: porciones individuales, 
-                empanizados, marinados según requerimientos del cliente.
+                Trabajamos con foco en consistencia, cadena de frío y control de
+                calidad en cada etapa del proceso.
               </p>
             </div>
           </div>
@@ -166,8 +167,8 @@ export default function Home() {
             <div className="content-text">
               <h2>Instalaciones Modernas</h2>
               <p>
-                Contamos con plantas equipadas con tecnología de punta y sistemas 
-                de control de temperatura en todas las etapas.
+                Nuestra planta en Caleta Olivia cuenta con equipamiento y sistemas 
+                de control de temperatura en las distintas etapas del proceso.
               </p>
               <p>
                 Nuestras instalaciones cumplen con certificaciones HACCP, ISO 9001 

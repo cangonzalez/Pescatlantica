@@ -25,7 +25,7 @@ export default function ServiciosPage() {
                 captura incidental.
               </p>
               <p style={{ marginTop: '12px' }}>
-                <strong>Especies:</strong> Merluza, corvina, calamar, abadejo, polaca.
+                <strong>Producto actual:</strong> Merluza.
               </p>
             </div>
 
@@ -59,15 +59,15 @@ export default function ServiciosPage() {
         <div className="content-section">
           <h2 className="section-title">Productos y Presentaciones</h2>
           <p className="section-subtitle">
-            Amplia variedad de formatos para diferentes necesidades del mercado
+            Presentaciones de merluza para diferentes necesidades comerciales
           </p>
 
           <div className="cards-container">
             <div className="card">
-              <h3>Productos Frescos</h3>
+              <h3>Merluza Fresca</h3>
               <p>
-                <strong>• Pescado entero eviscerado</strong><br />
-                Presentación tradicional para pescaderías.<br /><br />
+                <strong>• Merluza entera eviscerada</strong><br />
+                Presentación tradicional para comercialización mayorista.<br /><br />
                 <strong>• Filetes frescos</strong><br />
                 Con o sin piel, listos para consumo.<br /><br />
                 <strong>• HG (sin cabeza ni vísceras)</strong><br />
@@ -77,27 +77,27 @@ export default function ServiciosPage() {
             </div>
 
             <div className="card">
-              <h3>Productos Congelados</h3>
+              <h3>Merluza Congelada</h3>
               <p>
                 <strong>• Bloques IQF</strong><br />
                 Congelado individual rápido.<br /><br />
                 <strong>• Filetes congelados</strong><br />
-                Retail e industrial.<br /><br />
-                <strong>• Calamar</strong><br />
-                Tubo, anilla, tentáculo.<br /><br />
+                Presentaciones para canal comercial e industrial.<br /><br />
+                <strong>• Producto clasificado</strong><br />
+                Selección por presentación y requerimiento comercial.<br /><br />
                 <strong>Congelación:</strong> -18°C, túneles rápidos.
               </p>
             </div>
 
             <div className="card">
-              <h3>Valor Agregado</h3>
+              <h3>Preparación Comercial</h3>
               <p>
-                <strong>• Porciones individuales</strong><br />
-                Embalaje retail para supermercados.<br /><br />
-                <strong>• Productos marinados</strong><br />
-                Preparaciones personalizadas.<br /><br />
-                <strong>• Desarrollo a medida</strong><br />
-                Productos específicos según cliente.<br /><br />
+                <strong>• Clasificación por lote</strong><br />
+                Organización según calidad, tamaño y presentación.<br /><br />
+                <strong>• Empaque y rotulado</strong><br />
+                Identificación clara para trazabilidad comercial.<br /><br />
+                <strong>• Conservación</strong><br />
+                Manejo de frío según condición del producto.<br /><br />
                 <strong>Packaging:</strong> Vacío, skin pack, MAP.
               </p>
             </div>

@@ -24,9 +24,9 @@ export default function NosotrosPage() {
               y comercialización bajo un mismo estándar de trabajo.
             </p>
             <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: 'var(--text-light)', marginBottom: '20px' }}>
-              A lo largo de los años, la empresa fortaleció sus procesos operativos, 
-              incorporó tecnología y consolidó relaciones comerciales basadas en la 
-              confianza, la consistencia y la trazabilidad de sus productos.
+              Nuestra planta está ubicada en Caleta Olivia, en la Patagonia Argentina, 
+              una zona estratégica para la actividad pesquera y el trabajo con productos 
+              del Atlántico Sur.
             </p>
             <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: 'var(--text-light)' }}>
               Hoy seguimos trabajando con una mirada de mejora continua: invertir en 
@@ -144,8 +144,8 @@ export default function NosotrosPage() {
               <div className="card">
                 <h3>Sector Industrial</h3>
                 <p>
-                  Suministro de materia prima a empresas elaboradoras de productos 
-                  con valor agregado.
+                  Suministro de merluza como materia prima para operaciones 
+                  comerciales e industriales.
                 </p>
               </div>
             </div>
