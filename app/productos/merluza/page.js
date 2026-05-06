@@ -7,23 +7,15 @@ export const metadata = {
 const products = [
   {
     title: 'Filet de merluza sin piel',
-    image: '/imagenes/fileteado.jpeg',
+    image: '/imagenes/merluza/filetes-bandejas-vertical.jpeg',
     bullets: ['Congelado en tierra', 'Poca espina', 'Interfoliado'],
     calibers: '60/120 g · 120/200 g · 200/up · 2/4 oz · 4/6 oz · 6/8 oz',
     formats:
       'Bloques interfoliados, cajas master y presentaciones comerciales según requerimiento.',
   },
   {
-    title: 'Filet de merluza con piel',
-    image: '/imagenes/pescado_barco.jpeg',
-    bullets: ['Congelado en tierra', 'Poca espina', 'Interfoliado'],
-    calibers: '60/120 g · 120/200 g · 200/up · 2/4 oz · 4/6 oz · 6/8 oz',
-    formats:
-      'Producto clasificado por lote, calibre y presentación, preparado para canal comercial e industrial.',
-  },
-  {
     title: 'Merluza HGT / HG',
-    image: '/imagenes/guardado-2.jpeg',
+    image: '/imagenes/merluza/corte-merluza-mesa.jpeg',
     bullets: ['Congelado en tierra', 'Poca espina', 'Interfoliado'],
     calibers: '80/300 g · 300/500 g · 500/800 g',
     formats:
@@ -130,9 +122,9 @@ export default function MerluzaPage() {
       </section>
 
       <section className="image-band" aria-label="Proceso de merluza en planta">
-        <img src="/imagenes/proceso.jpeg" alt="Proceso de merluza en planta" loading="lazy" decoding="async" />
-        <img src="/imagenes/planta-procesamiento.jpeg" alt="Planta de procesamiento" loading="lazy" decoding="async" />
-        <img src="/imagenes/guardado.jpeg" alt="Merluza procesada en bandejas" loading="lazy" decoding="async" />
+        <img src="/imagenes/merluza/sala-fileteado-amplia.jpeg" alt="Sala de fileteado de merluza" loading="lazy" decoding="async" />
+        <img src="/imagenes/merluza/planta-proceso-interfoliado.jpeg" alt="Proceso de interfoliado en planta" loading="lazy" decoding="async" />
+        <img src="/imagenes/merluza/mesa-clasificacion.jpeg" alt="Clasificación manual de merluza" loading="lazy" decoding="async" />
       </section>
 
       <section>
@@ -159,7 +151,7 @@ export default function MerluzaPage() {
               </p>
             </div>
             <img
-              src="/imagenes/planta-procesamiento.jpeg"
+              src="/imagenes/merluza/sala-fileteado-linea.jpeg"
               alt="Interior de la planta de Pescatlantica en Caleta Olivia"
               loading="lazy"
               decoding="async"

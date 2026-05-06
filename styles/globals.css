@@ -405,7 +405,7 @@ section {
 .merluza-hero {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
-    url('/imagenes/pescado-barco-web.jpeg');
+    url('/imagenes/merluza/merluza-hielo-hero.jpeg');
   background-position: center;
   background-size: cover;
 }
@@ -458,8 +458,10 @@ section {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .product-detail-card {
