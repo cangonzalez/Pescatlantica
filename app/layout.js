@@ -1,11 +1,4 @@
-import { Poppins } from 'next/font/google';
 import '../styles/globals.css';
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  display: 'swap'
-});
 
 export const metadata = {
   title: 'Pescatlántica - Procesamiento y Comercialización de Productos del Mar',
@@ -15,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={poppins.className}>
+      <body>
         <header className="header">
           <div className="header-container">
             <img src="/imagenes/logo.jpeg" alt="Pescatlántica" className="logo" />

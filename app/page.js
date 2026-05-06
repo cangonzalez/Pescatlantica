@@ -36,7 +36,7 @@ export default function Home() {
 
           <div className="content-grid reverse">
             <div className="content-image">
-              <img src="/imagenes/fieteado.jpeg" alt="Fileteado de pescado" />
+              <img src="/imagenes/fileteado.jpeg" alt="Fileteado de pescado" />
             </div>
             <div className="content-text">
               <h2>Procesamiento Inmediato</h2>
@@ -53,7 +53,7 @@ export default function Home() {
 
           <div className="content-grid">
             <div className="content-image">
-              <img src="/imagenes/guardado 2 .jpeg" alt="Empaquetado" />
+              <img src="/imagenes/guardado-2.jpeg" alt="Empaquetado" />
             </div>
             <div className="content-text">
               <h2>Empaquetado y Conservación</h2>
@@ -139,7 +139,7 @@ export default function Home() {
 
           <div className="content-grid">
             <div className="content-image">
-              <img src="/imagenes/WhatsApp Image 2026-05-04 at 09.13.18.jpeg" alt="Equipo de trabajo" />
+              <img src="/imagenes/equipo-trabajo.jpeg" alt="Equipo de trabajo" />
             </div>
             <div className="content-text">
               <h2>Personal Especializado</h2>
@@ -156,7 +156,7 @@ export default function Home() {
 
           <div className="content-grid reverse">
             <div className="content-image">
-              <img src="/imagenes/WhatsApp Image 2026-05-04 at 09.13.25 (1).jpeg" alt="Planta de procesamiento" />
+              <img src="/imagenes/planta-procesamiento.jpeg" alt="Planta de procesamiento" />
             </div>
             <div className="content-text">
               <h2>Instalaciones Modernas</h2>
