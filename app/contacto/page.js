@@ -94,9 +94,9 @@ export default function ContactoPage() {
             <h3>Información de Contacto</h3>
 
             <div className="info-item">
-              <strong>📍 Dirección</strong>
-              Mar del Plata, Buenos Aires<br />
-              Argentina (CP 7600)
+              <strong>Atención comercial</strong>
+              Consultas sobre productos, cotizaciones y disponibilidad.<br />
+              Respondemos solicitudes de clientes nacionales e internacionales.
             </div>
 
             <div className="info-item">
@@ -238,14 +238,6 @@ export default function ContactoPage() {
 
           <div className="cards-container">
             <div className="card">
-              <h3>¿Realizan ventas minoristas?</h3>
-              <p>
-                Pescatlántica opera principalmente en mercado mayorista. 
-                Para compras minoristas consulte puntos de venta autorizados.
-              </p>
-            </div>
-
-            <div className="card">
               <h3>¿Cuál es el pedido mínimo?</h3>
               <p>
                 Los volúmenes mínimos varían según producto y presentación. 
@@ -274,14 +266,6 @@ export default function ContactoPage() {
               <p>
                 Sí, trabajamos con clientes industriales en desarrollo de 
                 productos a medida.
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>¿Tiempo de entrega?</h3>
-              <p>
-                24-72 horas para Buenos Aires, 48-96 horas para el interior, 
-                según ubicación y producto.
               </p>
             </div>
           </div>

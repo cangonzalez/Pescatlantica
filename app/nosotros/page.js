@@ -13,25 +13,25 @@ export default function NosotrosPage() {
         <div className="content-section">
           <h2 className="section-title">Nuestra Historia</h2>
           <p className="section-subtitle">
-            Desde nuestros inicios en Mar del Plata, hemos evolucionado hasta 
-            convertirnos en un referente de la industria pesquera argentina
+            Una trayectoria construida sobre calidad, trazabilidad y compromiso 
+            con cada etapa de la cadena pesquera
           </p>
 
           <div style={{ maxWidth: '900px', margin: '0 auto' }}>
             <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: 'var(--text-light)', marginBottom: '20px' }}>
-              Pescatlántica S.A. fue fundada con la visión de integrar verticalmente toda la 
-              cadena productiva pesquera. Con más de 20 años de trayectoria, nos hemos 
-              consolidado como empresa líder en el procesamiento y comercialización de 
-              productos del mar del Atlántico Sur.
+              Pescatlántica S.A. nace con la visión de integrar verticalmente la cadena 
+              productiva pesquera, conectando captura, procesamiento, control de calidad 
+              y comercialización bajo un mismo estándar de trabajo.
             </p>
             <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: 'var(--text-light)', marginBottom: '20px' }}>
-              Nuestra sede principal se encuentra en Mar del Plata, Buenos Aires, el puerto 
-              pesquero más importante de Argentina, con acceso privilegiado a los recursos 
-              del Mar Argentino.
+              A lo largo de los años, la empresa fortaleció sus procesos operativos, 
+              incorporó tecnología y consolidó relaciones comerciales basadas en la 
+              confianza, la consistencia y la trazabilidad de sus productos.
             </p>
             <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: 'var(--text-light)' }}>
-              Hemos invertido continuamente en tecnología, capacitación y mejora de procesos, 
-              manteniendo nuestro compromiso con la calidad y la sustentabilidad.
+              Hoy seguimos trabajando con una mirada de mejora continua: invertir en 
+              capacitación, optimizar procesos y sostener altos criterios de calidad 
+              para responder a las exigencias del mercado nacional e internacional.
             </p>
           </div>
         </div>

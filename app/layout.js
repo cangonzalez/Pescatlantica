@@ -36,7 +36,6 @@ export default function RootLayout({ children }) {
 
         <footer className="footer">
           <p>&copy; 2026 Pescatlántica S.A. Todos los derechos reservados.</p>
-          <p>Mar del Plata, Buenos Aires, Argentina</p>
           <p>Pesca sostenible • Calidad certificada • Compromiso ambiental</p>
         </footer>
       </body>
