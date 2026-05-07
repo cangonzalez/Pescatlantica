@@ -935,57 +935,105 @@ section {
 
 @media (max-width: 640px) {
   .header {
-    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    padding: 8px 0 7px;
   }
 
   .header-container {
-    padding: 0 16px;
+    max-width: none;
+    padding: 0 12px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 8px 10px;
   }
 
   .brand {
-    gap: 10px;
+    width: auto;
+    min-width: 0;
+    justify-content: flex-start;
+    gap: 8px;
   }
 
   .logo {
-    width: 54px;
-    height: 54px;
-    border-radius: 14px;
+    width: 42px;
+    height: 42px;
+    border-radius: 11px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  }
+
+  .brand-copy {
+    min-width: 0;
+    overflow: hidden;
   }
 
   .brand-name {
-    font-size: 1rem;
-    letter-spacing: 0.1em;
+    font-size: clamp(0.78rem, 3.2vw, 0.95rem);
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .brand-tagline {
-    font-size: 0.56rem;
-    letter-spacing: 0.12em;
+    display: none;
+  }
+
+  .nav {
+    grid-column: 1 / -1;
+    width: calc(100% + 24px);
+    margin: 0 -12px;
+    padding: 4px 12px 1px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .nav::-webkit-scrollbar {
+    display: none;
   }
 
   .nav ul {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 8px;
-    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 6px;
+    min-width: 100%;
+    width: max-content;
   }
 
   .nav li {
-    width: 100%;
+    flex: 0 0 auto;
+    width: auto;
   }
 
   .nav a {
-    padding: 11px 8px;
-    font-size: 0.84rem;
+    padding: 8px 11px;
+    font-size: 0.76rem;
+    white-space: nowrap;
     background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+  }
+
+  .language-switcher {
+    width: auto;
+    justify-content: flex-end;
+    gap: 0;
   }
 
   .language-switcher label {
-    font-size: 0.7rem;
+    display: none;
   }
 
   .language-switcher select {
-    min-width: 150px;
-    font-size: 0.82rem;
+    min-width: 104px;
+    max-width: 116px;
+    height: 34px;
+    padding: 7px 26px 7px 10px;
+    border-radius: 999px;
+    font-size: 0.74rem;
   }
 
   .hero {
